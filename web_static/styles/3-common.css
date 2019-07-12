@@ -2,12 +2,6 @@ body{
   font-size: 14px;
   font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
   color:  #484848;
-}
-
-.logix{
-  position: absolute;
-  left:20px;
-  width: 142px;
-  height: 60px;
-  background-image: url(../images/logo.png);
+  padding: 0;
+  margin: 0;
 }
