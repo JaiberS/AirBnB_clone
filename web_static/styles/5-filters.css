@@ -26,8 +26,38 @@ button{
   position: absolute;
   margin-right: 30px;
   border: 0px;
+  /* margin-left: auto; */
 }
 
 button:hover{
   opacity: 0.9;
+}
+
+.locations{
+  height: 100%;
+  width: 25%;
+  border-right: solid #DDDDDD 1px;
+  /* margin-right: auto; */
+   margin-left: 5%;
+}
+
+.Amenities{
+  height: 100%;
+  width: 25%;
+  /* border-right: solid #DDDDDD 1px; */
+  margin-right: auto;
+  margin-left: 5%;
+}
+
+.Title{
+  font-weight: 600;
+  color: black;
+  margin-bottom: auto;
+}
+
+.subtitle{
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+  margin-top: auto;
 }
