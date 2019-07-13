@@ -65,11 +65,14 @@ h4{
   padding-bottom: 50px;
   z-index: 1;
   padding-top: 20px;
+  position: relative;
 }
 
 ul{
   list-style-type: none;
+  z-index: 2;
 }
 .locations:hover ul, .Amenities:hover ul{
   display:block;
+  z-index: 3;
 }
