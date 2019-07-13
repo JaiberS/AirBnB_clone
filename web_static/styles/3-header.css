@@ -3,11 +3,10 @@ header
   background-color: white;
   height: 70px;
   width:100%;
-  /* position:absolute; */
   border-bottom-width: 1px;
   border-bottom-color: #CCCCCC;
   border-bottom-style:  solid;
-
+  margin-bottom: auto;
 }
 
 .logix{
