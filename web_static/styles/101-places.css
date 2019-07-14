@@ -1,0 +1,144 @@
+.places h1{
+  align-self: flex-start;
+  font-size: 30px;
+}
+
+article{
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border: #FF5A5F 1px solid;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+}
+
+.article{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  flex-grow: 300px;
+}
+
+article h2{
+  font-size: 30px;
+  float: none;
+}
+
+.price_by_night{
+  border: #FF5A5F 4px solid;
+  border-radius: 50%;
+  font-size: 30px;
+  height: 60px;
+  min-width: 60px;
+  color: #FF5A5F;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  text-align: justify;
+  display: flex;
+  align-items:  center;
+  justify-content: center;
+}
+
+.information{
+  height: 80px;
+  border-top: #DDDDDD 1px solid;
+  border-bottom: #DDDDDD 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+
+.logo_Guest{
+  background-image: url(../images/icon_group.png);
+}
+
+.logo_Beds{
+  background-image: url(../images/icon_bed.png);
+}
+
+.logo_Bath{
+  background-image: url(../images/icon_bath.png);
+}
+
+.logo_Bath, .logo_Beds, .logo_Guest{
+  width: 100px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: -10px;
+}
+
+.max_guest, .number_room, .number_bathrooms{
+  width: 100px;
+}
+
+.user{
+  text-align: left;
+}
+
+.description{
+  text-align: left;
+}
+
+.amenities{
+  margin-top: 40px;
+  text-align: left;
+}
+
+.amenities h2{
+  font-size: 16px;
+  border-bottom: #DDDDDD 1px solid;
+}
+
+.reviews{
+  margin-top: 40px;
+  text-align: left;
+}
+
+.reviews h2{
+  font-size: 16px;
+  border-bottom: #DDDDDD 1px solid;
+}
+
+.reviews p{
+  font-size: 12px;
+  margin-left: -40px;
+}
+
+.reviews h3{
+  margin-left: -40px;
+}
+
+.amenities li{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo_Wifi{
+  background-image: url(../images/icon_wifi.png);
+}
+
+.logo_TV{
+  background-image: url(../images/icon_tv.png);
+}
+
+.logo_Pets{
+  background-image: url(../images/icon_pets.png);
+}
+
+.logo_TV, .logo_Wifi, .logo_Pets{
+  width: 50px;
+  height: 50px;
+  background-size: 50%;
+  margin: -10px -20px -35px -40px;
+  background-repeat: no-repeat;
+}
+
+.amenities li p{
+  margin-bottom: 10px;
+}
